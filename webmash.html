@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<!-- 
+    Student Name: Shet,Neha Nilcant and Project Name: Project#2  and Due date: Wednesday October 26
+-->
+<html lang="en">
+  <head>
+    <title>Web Mashup: Display Address with Weather Details</title>
+    <meta charset="utf-8"/>
+      
+      <style>
+          .content {
+              
+            border :15px solid darkcyan;
+            padding:10px;
+            margin-top:10px;
+        
+          }
+          #map{
+              
+            width: 600px; height: 500px;
+            border: 1px solid black;
+            text-align: center;
+          }
+          #clear{
+              
+            width: 20%;
+            background-color: tan;
+            padding: 10px;
+            border: 2px solid burlywood
+          }
+      </style>
+    <script type="text/javascript" src="webmash.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7Bgh0S-U1UHM78fS-XpI1mtT7smrDW10&callback=initMap" type="text/javascript"></script>
+    
+  </head>
+  <body>
+    
+    <div><h3>Web Mashup: Display House Address on a Map with Weather details</h3></div>
+    <div id="map"></div><br/>
+      
+    <input type="button" id="clear" value= "Clear"/>
+    <div id="output">&nbsp;</div>
+    
+      
+  </body>
+</html>
+
